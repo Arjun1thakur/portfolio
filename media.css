@@ -1,0 +1,138 @@
+@media screen and (max-width: 992px){
+    .drive{
+        visibility: hidden;
+        height: 0%;
+    }
+    .home-details{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main__img img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .card {
+        backdrop-filter:unset;
+        background-color:unset;
+        border-radius: 0px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: auto;
+        left: auto;
+        transform:none;
+        border: none;
+    }
+    .main__content{
+        width: 90%;
+    }
+    .skills_container{
+        flex-direction: column-reverse;
+    }
+    .skills, .Knowledges {
+        margin: 100px 0px;
+    }
+    .skills-con-left{
+        width: 100%;
+    }
+    .skills-con-right{
+        width: 100%;
+    }
+    .education_point{
+        flex-direction: column;
+    }
+    .main_title{
+        line-height: 1;
+    }
+    .row1, .row2{
+        width: 100%;
+    }
+    .imgsize{
+        display: none;
+    }
+    .col-5{
+        max-width: 100%;
+    }
+    .main__content h1::before{
+        margin-left:-5rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .card2{
+        display: block;
+        margin: 20px 0;
+    }
+    .left_card2,.right_card2{
+        width: 100%;
+        margin: 0px;
+    }
+    .location{
+        display: none;
+    }
+    .box_Knowledges button,.skill_left button,.location,.right_card2{
+        margin: 3px;
+    }
+    .main__img{
+        display: none;
+    }
+    .container{
+        width: 90%;
+    }
+    .main__content h1::before{
+        width: 0%;
+    }
+
+}
+@media screen and (max-width: 600px){
+    .drive{
+        position:absolute;
+    }
+    .details{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .title-bg{
+        font-size: 56px;
+    }
+    .title-section{
+        padding: 20px 0;
+    }
+    .title-section h1{
+        font-size: 36px;
+    }
+    .section-title{
+        line-height: 1;
+        margin: 0px 0 10px 0;
+    }
+    .section-title2{
+        line-height: 1;
+    }
+    .section-title1{
+        line-height: 1;
+    }
+    .section-title2::after{
+        margin-top: 0.5rem;
+    }
+    .alert_h3{
+        margin: 0px;
+    }
+    .constraction img{
+        margin: 10px;
+    }
+    .right_card2{
+        box-shadow: 2px 1px 1px 2px rgba(0, 0, 0, 0.082);
+    }
+    .box{
+        box-shadow:0px 10px 30px -20px var(--grayishblue);
+    }
+    .main__content{
+        align-items: flex-start;
+    }
+    .main__content p{
+        width: 100%;
+    }
+    header{
+        display: none;
+    }
+}
